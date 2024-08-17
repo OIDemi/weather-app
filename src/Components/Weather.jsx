@@ -17,7 +17,7 @@ const Weather = () => {
       }
       const data = await response.json()
       setData(data)
-      console.log(data)
+      
       setError(null)
     } catch (error) {
       setError('City not found')
